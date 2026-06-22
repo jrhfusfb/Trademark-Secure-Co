@@ -85,7 +85,7 @@ const Index8Page = () => {
   };
 
   return (
-    <div className="bg-gray-50 text-gray-800 antialiased selection:bg-secondary selection:text-white" id="top">
+    <div className="bg-gray-50 text-gray-800 antialiased selection:bg-secondary selection:text-white overflow-x-hidden w-full" id="top">
       <Navbar />
 
       {/* Hero Section */}
@@ -311,8 +311,8 @@ const Index8Page = () => {
             <p className="text-gray-600 max-w-2xl mx-auto">We prioritize precision over volume. Experience the difference of a lawyer-led consultancy.</p>
           </div>
 
-          <div className="max-w-4xl mx-auto perspective-1000">
-            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200/80 card-3d">
+          <div className="max-w-4xl mx-auto perspective-1000 overflow-x-auto pb-4 scrollbar-thin">
+            <div className="bg-white rounded-3xl shadow-xl border border-gray-200/80 card-3d min-w-[640px] overflow-hidden">
               <div className="grid grid-cols-3 bg-primary text-white p-6 font-semibold">
                 <div className="col-span-1 text-lg">Feature</div>
                 <div className="col-span-1 text-center text-slate-400">Standard Agencies</div>

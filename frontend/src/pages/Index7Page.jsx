@@ -68,7 +68,7 @@ const Index7Page = () => {
 
 
   return (
-    <div className="bg-gray-50 text-gray-800 antialiased selection:bg-secondary selection:text-white" id="top">
+    <div className="bg-gray-50 text-gray-800 antialiased selection:bg-secondary selection:text-white overflow-x-hidden w-full" id="top">
       
       {/* Navbar exactly from index7.html */}
       {/* Navbar exactly from index7.html */}
@@ -290,8 +290,8 @@ const Index7Page = () => {
             <p className="text-gray-600 max-w-2xl mx-auto">We prioritize precision and transparency. See how we compare against standard volume-based agencies.</p>
           </div>
 
-          <div className="max-w-5xl mx-auto perspective-1000">
-            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200/80 card-3d">
+          <div className="max-w-5xl mx-auto perspective-1000 overflow-x-auto pb-4 scrollbar-thin">
+            <div className="bg-white rounded-3xl shadow-xl border border-gray-200/80 card-3d min-w-[640px] overflow-hidden">
               <div className="grid grid-cols-3 bg-primary text-white p-6 font-semibold items-center">
                 <div className="col-span-1 text-lg">Feature</div>
                 <div className="col-span-1 text-center text-slate-400">Standard Agencies</div>
