@@ -7,11 +7,13 @@ const AdminDashboard = () => {
   const [error, setError] = useState(null);
   const [filterService, setFilterService] = useState('All');
 
+  const API_BASE = import.meta.env.VITE_API_URL || '';
+
   const fetchLeads = async () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('/api/consultations');
+      const response = await fetch(`${API_BASE}/api/consultations`);
       const data = await response.json();
       if (response.ok && data.success) {
         setLeads(data.data);
