@@ -351,31 +351,30 @@ const Index8Page = () => {
               
               <div className="space-y-6 perspective-1000">
                 {/* WhatsApp */}
-                <div className="bg-gray-50 border border-gray-100 p-6 rounded-2xl flex items-center gap-4 card-3d shadow-sm">
+                <div className="bg-gray-50 border border-gray-100 p-4 sm:p-6 rounded-2xl flex items-center gap-3 sm:gap-4 card-3d shadow-sm overflow-hidden">
                   <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center shrink-0">
                     <i className="fa-brands fa-whatsapp text-2xl text-green-600"></i>
                   </div>
-                  <div>
-                    <p className="text-sm text-gray-500">WhatsApp / Call Us</p>
-                    <a href="https://wa.me/91890576656" target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-primary hover:text-green-600 transition duration-300">+91 890576656</a>
+                  <div className="min-w-0">
+                    <p className="text-xs sm:text-sm text-gray-500">WhatsApp / Call Us</p>
+                    <a href="https://wa.me/91890576656" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold text-primary hover:text-green-600 transition duration-300 break-words">+91 890576656</a>
                   </div>
                 </div>
                 {/* Email */}
-                <div className="bg-gray-50 border border-gray-100 p-6 rounded-2xl flex items-center gap-4 card-3d shadow-sm">
+                <div className="bg-gray-50 border border-gray-100 p-4 sm:p-6 rounded-2xl flex items-center gap-3 sm:gap-4 card-3d shadow-sm overflow-hidden">
                   <div className="w-12 h-12 bg-yellow-50 rounded-full flex items-center justify-center shrink-0">
                     <i className="fa-solid fa-envelope text-xl text-secondary"></i>
                   </div>
-                  <div>
-                    <p className="text-sm text-gray-500">Email Us</p>
-                    <a href="mailto:contact@trademarksecure.co.in" className="text-xl font-bold text-primary hover:text-secondary transition duration-300">contact@trademarksecure.co.in</a>
+                  <div className="min-w-0">
+                    <p className="text-xs sm:text-sm text-gray-500">Email Us</p>
+                    <a href="mailto:contact@trademarksecure.co.in" className="text-sm sm:text-lg md:text-xl font-bold text-primary hover:text-secondary transition duration-300 break-all">contact@trademarksecure.co.in</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Contact Form */}
             <div className="perspective-1000">
-              <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-xl relative overflow-hidden card-3d">
+              <div className="bg-gray-50 p-6 sm:p-8 rounded-3xl border border-gray-100 shadow-xl relative overflow-hidden card-3d">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-secondary opacity-5 rounded-bl-full pointer-events-none"></div>
                 <h3 className="text-2xl font-bold text-primary mb-6">Request a Consultation</h3>
                 

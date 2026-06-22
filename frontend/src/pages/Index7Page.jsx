@@ -350,23 +350,23 @@ const Index7Page = () => {
           
           <div className="flex flex-col sm:flex-row justify-center gap-6 perspective-1000">
             {/* WhatsApp */}
-            <div className="bg-white border border-gray-200/80 p-6 rounded-2xl flex items-center gap-4 card-3d shadow-sm w-full sm:w-auto text-left">
+            <div className="bg-white border border-gray-200/80 p-4 sm:p-6 rounded-2xl flex items-center gap-3 sm:gap-4 card-3d shadow-sm w-full sm:w-auto text-left overflow-hidden">
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center shrink-0">
                 <i className="fa-brands fa-whatsapp text-2xl text-green-600"></i>
               </div>
-              <div>
-                <p className="text-sm text-gray-500">WhatsApp / Call Us</p>
-                <a href="https://wa.me/91890576656" target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-primary hover:text-green-600 transition duration-300">+91 890576656</a>
+              <div className="min-w-0">
+                <p className="text-xs sm:text-sm text-gray-500">WhatsApp / Call Us</p>
+                <a href="https://wa.me/91890576656" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold text-primary hover:text-green-600 transition duration-300 break-words">+91 890576656</a>
               </div>
             </div>
             {/* Email */}
-            <div className="bg-white border border-gray-200/80 p-6 rounded-2xl flex items-center gap-4 card-3d shadow-sm w-full sm:w-auto text-left">
+            <div className="bg-white border border-gray-200/80 p-4 sm:p-6 rounded-2xl flex items-center gap-3 sm:gap-4 card-3d shadow-sm w-full sm:w-auto text-left overflow-hidden">
               <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center shrink-0">
                 <i className="fa-solid fa-envelope text-xl text-secondary"></i>
               </div>
-              <div>
-                <p className="text-sm text-gray-500">Email Us</p>
-                <a href="mailto:contact@trademarksecure.co.in" className="text-xl font-bold text-primary hover:text-secondary transition duration-300">contact@trademarksecure.co.in</a>
+              <div className="min-w-0">
+                <p className="text-xs sm:text-sm text-gray-500">Email Us</p>
+                <a href="mailto:contact@trademarksecure.co.in" className="text-sm sm:text-lg md:text-xl font-bold text-primary hover:text-secondary transition duration-300 break-all">contact@trademarksecure.co.in</a>
               </div>
             </div>
           </div>
