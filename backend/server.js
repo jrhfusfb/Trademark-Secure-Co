@@ -24,8 +24,13 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'up', time: new Date() });
 });
 
-// Port and start server
+// Start server locally (not used in Vercel serverless — Vercel uses the exported app)
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
-});
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
+  });
+}
+
+// Export for Vercel serverless runtime
+export default app;
