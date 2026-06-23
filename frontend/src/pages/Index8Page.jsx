@@ -321,8 +321,8 @@ const Index8Page = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Contact Details */}
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Ready to secure your intellectual property?</h2>
-              <p className="text-lg text-gray-600 mb-10">Speak directly to our operations team or fill out the form to initiate your filing today. No automated bots, just direct expert assistance.</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Register Your Trademark Now &mdash; Secure Your Brand!</h2>
+              <p className="text-lg text-gray-600 mb-10">Speak directly to our legal expert or fill out the form to initiate your filing today. No automated bots, just direct expert assistance.</p>
               
               <div className="space-y-6 perspective-1000">
                 {/* WhatsApp */}
@@ -351,7 +351,7 @@ const Index8Page = () => {
             <div className="perspective-1000">
               <div className="bg-gray-50 p-6 sm:p-8 rounded-3xl border border-gray-100 shadow-xl relative overflow-hidden card-3d">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-secondary opacity-5 rounded-bl-full pointer-events-none"></div>
-                <h3 className="text-2xl font-bold text-primary mb-6">Request a Consultation</h3>
+                <h3 className="text-2xl font-bold text-primary mb-6">Get Free Expert Consultation</h3>
                 
                 {status.success ? (
                   <div className="bg-green-50 border border-green-200 text-green-800 p-6 rounded-2xl text-center space-y-4 animate-fadeIn">
@@ -377,7 +377,7 @@ const Index8Page = () => {
                     )}
 
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">Full Name <span className="text-red-500">*</span></label>
                       <input 
                         type="text" 
                         name="Name" 
@@ -390,7 +390,7 @@ const Index8Page = () => {
                     </div>
                     <div className="grid sm:grid-cols-2 gap-5">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-1">Phone / WhatsApp</label>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Phone / WhatsApp <span className="text-red-500">*</span></label>
                         <input 
                           type="tel" 
                           name="Phone" 
@@ -402,7 +402,7 @@ const Index8Page = () => {
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Email Address <span className="text-red-500">*</span></label>
                         <input 
                           type="email" 
                           name="Email" 
