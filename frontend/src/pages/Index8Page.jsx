@@ -321,7 +321,7 @@ const Index8Page = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Contact Details */}
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Register Your Trademark Now &mdash; Secure Your Brand!</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Register Your Trademark Now. Secure Your Brand!</h2>
               <p className="text-lg text-gray-600 mb-10">Speak directly to our legal expert or fill out the form to initiate your filing today. No automated bots, just direct expert assistance.</p>
               
               <div className="space-y-6 perspective-1000">
