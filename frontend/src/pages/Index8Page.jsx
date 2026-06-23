@@ -238,6 +238,83 @@ const Index8Page = () => {
         </div>
       </section>
 
+      {/* Our Services Section */}
+      <section id="services" className="py-20 bg-gray-50/70">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <span className="inline-block mb-3 px-4 py-1.5 rounded-full bg-secondary/10 border border-secondary/30 text-secondary text-sm font-semibold tracking-wide">
+              Our Services
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+              Full-Spectrum <span className="text-secondary">IP Protection</span>
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">From filing to registration and beyond — we cover every stage of your intellectual property journey.</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+
+            {/* Trademark Services Card */}
+            <div className="bg-white rounded-3xl p-8 border border-gray-200/80 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+              <div className="w-14 h-14 rounded-2xl bg-primary/8 flex items-center justify-center mb-6 border border-primary/15">
+                <i className="fa-solid fa-tag text-2xl text-primary"></i>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-3">Trademark Services</h3>
+              <p className="text-gray-500 text-sm mb-6 leading-relaxed">Protect your brand identity from end-to-end. We manage the entire lifecycle of your trademarks globally.</p>
+              <ul className="space-y-2.5 text-sm text-gray-700 flex-grow">
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Trademark Registration</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Reply to Examination Objection</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Show Cause Hearing</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Trademark Opposition</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Trademark Renewal</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Rectification / Cancellation</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Assignment &amp; Licensing</li>
+                <li className="flex items-start gap-2 text-gray-400"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> <span className="line-through">International Registration (Madrid)</span></li>
+              </ul>
+            </div>
+
+            {/* Copyright Services Card */}
+            <div className="bg-white rounded-3xl p-8 border-2 border-secondary/40 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col relative">
+              <div className="absolute top-0 right-0 bg-secondary text-white text-xs font-bold px-4 py-1.5 rounded-bl-lg rounded-tr-3xl uppercase tracking-wide">
+                Popular
+              </div>
+              <div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center mb-6 border border-secondary/25">
+                <i className="fa-solid fa-copyright text-2xl text-secondary"></i>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-3">Copyright Services</h3>
+              <p className="text-gray-500 text-sm mb-6 leading-relaxed">Safeguard your original works of authorship, from software code and literature to music and visual arts.</p>
+              <ul className="space-y-2.5 text-sm text-gray-700 flex-grow">
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Copyright Registration</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Discrepancy &amp; Objection Reply</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Copyright Hearing</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Software &amp; Code Protection</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Assignment &amp; Licensing</li>
+                <li className="flex items-start gap-2 text-gray-400"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> <span className="line-through">Infringement Litigation</span></li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Take-down Notices (DMCA)</li>
+              </ul>
+            </div>
+
+            {/* Design Services Card */}
+            <div className="bg-white rounded-3xl p-8 border border-gray-200/80 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+              <div className="w-14 h-14 rounded-2xl bg-primary/8 flex items-center justify-center mb-6 border border-primary/15">
+                <i className="fa-solid fa-cube text-2xl text-primary"></i>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-3">Design Services</h3>
+              <p className="text-gray-500 text-sm mb-6 leading-relaxed">Secure the unique visual appearance, shape, and configuration of your commercial products.</p>
+              <ul className="space-y-2.5 text-sm text-gray-700 flex-grow">
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Design Search &amp; Clearance</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Design Registration &amp; Filing</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Objection Reply &amp; Hearing</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Renewal of Design</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Cancellation Proceedings</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Assignment &amp; Licensing</li>
+                <li className="flex items-start gap-2 text-gray-400"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> <span className="line-through">Piracy &amp; Infringement Actions</span></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* Contact Form Section */}
       <section id="contact" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
