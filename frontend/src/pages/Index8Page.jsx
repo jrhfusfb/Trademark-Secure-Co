@@ -116,7 +116,42 @@ const Index8Page = () => {
         </div>
       </section>
 
+      {/* Difference / Comparison Section */}
+      <section id="difference" className="py-20 bg-gray-50/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Why Choose Trademark Secure Co.?</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">See how we are different from other agencies</p>
+          </div>
 
+          <div className="max-w-5xl mx-auto perspective-1000 overflow-x-auto pb-4 scrollbar-thin">
+            <div className="bg-white rounded-3xl shadow-xl border border-gray-200/80 card-3d min-w-[640px] overflow-hidden">
+              <div className="grid grid-cols-3 bg-primary text-white p-6 font-semibold items-center">
+                <div className="col-span-1 text-lg">Feature</div>
+                <div className="col-span-1 text-center text-slate-400">Other Agencies</div>
+                <div className="col-span-1 text-center text-secondary text-lg md:text-xl font-bold">Trademark Secure Co.</div>
+              </div>
+              <div className="divide-y divide-gray-100">
+                <div className="grid grid-cols-3 p-6 items-center hover:bg-gray-50/80 transition">
+                  <div className="col-span-1 font-medium text-gray-800">Application Handled By</div>
+                  <div className="col-span-1 text-center text-gray-500"><i className="fa-solid fa-robot text-gray-400 block mb-1"></i> Support Staff / Bots</div>
+                  <div className="col-span-1 text-center font-bold text-green-700 bg-green-50 p-3 rounded-xl border border-green-200"><i className="fa-solid fa-user-tie text-green-600 block mb-1"></i> Experienced IP Attorneys</div>
+                </div>
+                <div className="grid grid-cols-3 p-6 items-center hover:bg-gray-50/80 transition">
+                  <div className="col-span-1 font-medium text-gray-800">Pricing Structure</div>
+                  <div className="col-span-1 text-center text-gray-500"><i className="fa-solid fa-triangle-exclamation text-red-400 block mb-1"></i> Hidden Fees for Objections</div>
+                  <div className="col-span-1 text-center font-bold text-green-700 bg-green-50 p-3 rounded-xl border border-green-200"><i className="fa-solid fa-circle-check text-green-600 block mb-1"></i> 100% Transparent Flat-Rates</div>
+                </div>
+                <div className="grid grid-cols-3 p-6 items-center hover:bg-gray-50/80 transition">
+                  <div className="col-span-1 font-medium text-gray-800">Client Support</div>
+                  <div className="col-span-1 text-center text-gray-500"><i className="fa-solid fa-headset text-gray-400 block mb-1"></i> Automated Ticket Systems</div>
+                  <div className="col-span-1 text-center font-bold text-green-700 bg-green-50 p-3 rounded-xl border border-green-200"><i className="fa-brands fa-whatsapp text-green-600 block mb-1"></i> Direct Attorney Access</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Pricing Cards Section */}
       <section id="pricing" className="py-20 bg-primary text-white relative overflow-hidden">
@@ -198,41 +233,7 @@ const Index8Page = () => {
           </div>
         </div>
       </section>
-      <section id="difference" className="py-20 bg-gray-50/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">The Trademark Secure Advantage</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">We prioritize precision over volume. Experience the difference of a lawyer-led consultancy.</p>
-          </div>
 
-          <div className="max-w-4xl mx-auto perspective-1000 overflow-x-auto pb-4 scrollbar-thin">
-            <div className="bg-white rounded-3xl shadow-xl border border-gray-200/80 card-3d min-w-[640px] overflow-hidden">
-              <div className="grid grid-cols-3 bg-primary text-white p-6 font-semibold">
-                <div className="col-span-1 text-lg">Feature</div>
-                <div className="col-span-1 text-center text-slate-400">Standard Agencies</div>
-                <div className="col-span-1 text-center text-secondary text-lg">Trademark Secure Co.</div>
-              </div>
-              <div className="divide-y divide-gray-100">
-                <div className="grid grid-cols-3 p-6 items-center hover:bg-gray-50/80 transition">
-                  <div className="col-span-1 font-medium text-gray-800">Application Handled By</div>
-                  <div className="col-span-1 text-center text-gray-500">Support Staff / Bots</div>
-                  <div className="col-span-1 text-center font-bold text-primary">Experienced IP Attorneys</div>
-                </div>
-                <div className="grid grid-cols-3 p-6 items-center hover:bg-gray-50/80 transition">
-                  <div className="col-span-1 font-medium text-gray-800">Pricing Structure</div>
-                  <div className="col-span-1 text-center text-gray-500">Hidden Fees for Objections</div>
-                  <div className="col-span-1 text-center font-bold text-primary">100% Transparent Flat-Rates</div>
-                </div>
-                <div className="grid grid-cols-3 p-6 items-center hover:bg-gray-50/80 transition">
-                  <div className="col-span-1 font-medium text-gray-800">Client Support</div>
-                  <div className="col-span-1 text-center text-gray-500">Automated Ticket Systems</div>
-                  <div className="col-span-1 text-center font-bold text-primary">Direct Attorney Access</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Contact and Form Section */}
       <section id="contact" className="py-20 bg-white">
