@@ -159,7 +159,7 @@ const Index8Page = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Transparent <span className="text-secondary">No-Surprise</span> Pricing</h2>
-            <p className="text-gray-300 max-w-2xl mx-auto">Choose the protection level you need. No hidden fees, no hourly billing surprises. Professional fees shown below (Government statutory fees are additional as applicable).</p>
+            <p className="text-gray-300 max-w-2xl mx-auto">Choose the protection level you need. No hidden fees.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto items-stretch perspective-1000">
@@ -176,11 +176,11 @@ const Index8Page = () => {
               </div>
               
               <ul className="space-y-3 mb-8 text-slate-300 flex-grow">
-                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Preliminary Trademark Search</li>
-                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Class Selection Advisory</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Trademark Search</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Class Selection</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing of Application</li>
-                <li className="flex items-start gap-2 text-slate-500"><i className="fa-solid fa-xmark mt-1"></i> <span className="line-through">Reply to Objections</span></li>
-                <li className="flex items-start gap-2 text-slate-500"><i className="fa-solid fa-xmark mt-1"></i> <span className="line-through">Hearing Representation</span></li>
+                <li className="flex items-start gap-2 text-slate-500"><i className="fa-solid fa-xmark mt-1"></i> <span className="line-through">Drafting & Filing Reply to Registry’s Objection</span></li>
+                <li className="flex items-start gap-2 text-slate-500"><i className="fa-solid fa-xmark mt-1"></i> <span className="line-through">Hearing</span></li>
               </ul>
               
               <a href="#contact" className="block w-full text-center bg-[#173062] hover:bg-[#1a3461] text-white font-bold py-3 rounded-xl transition duration-300 hover:scale-102 active:scale-98">Select Basic</a>
@@ -201,9 +201,11 @@ const Index8Page = () => {
               </div>
               
               <ul className="space-y-3 mb-8 text-slate-200 flex-grow">
-                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> <strong>Everything in Basic Filing</strong></li>
-                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing of Examination Replies (if any)</li>
-                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Advocate Appearance at Hearings</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Trademark Search</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Class Selection</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing of Application</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing Reply to Registry’s Objection</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Hearing Attendance by Advocate</li>
               </ul>
               
               <a href="#contact" className="block w-full text-center bg-secondary hover:bg-accent text-white font-bold py-3.5 rounded-xl transition duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-secondary/25">Secure My Brand</a>
@@ -224,8 +226,9 @@ const Index8Page = () => {
               <ul className="space-y-3 mb-8 text-slate-300 flex-grow">
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Takeover of Existing Application</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Strategy Review by IP Advocate</li>
-                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Filing Reply to Examination Report</li>
-                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> OR Attendance at Hearings</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing of Application</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing Reply to Registry’s Objection</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Hearing Attendance by Advocate</li>
               </ul>
               
               <a href="#contact" className="block w-full text-center bg-[#173062] hover:bg-[#1a3461] text-white font-bold py-3 rounded-xl transition duration-300 hover:scale-102 active:scale-98">Get Expert Help</a>
