@@ -121,7 +121,7 @@ const Index8Page = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Why Choose Trademark Secure Co.?</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">See how we are different from other agencies</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">We prioritize precision and transparency. See how we are different from other agencies</p>
           </div>
 
           <div className="max-w-5xl mx-auto perspective-1000 overflow-x-auto pb-4 scrollbar-thin">
