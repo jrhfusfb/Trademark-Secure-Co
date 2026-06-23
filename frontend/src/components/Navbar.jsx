@@ -38,11 +38,8 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <a href="https://wa.me/91890576656" target="_blank" rel="noopener noreferrer" className="hidden lg:flex items-center gap-2 text-gray-600 hover:text-green-600 font-semibold transition duration-300 hover:scale-105">
-              <i className="fa-brands fa-whatsapp text-xl text-green-500"></i> 890576656
-            </a>
             <a href="#contact" className="bg-primary hover:bg-secondary hover:scale-105 active:scale-95 text-white px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-md hover:shadow-lg shadow-primary/20 hover:shadow-secondary/20">
-              Get Started
+              Contact Us
             </a>
           </div>
 
@@ -86,19 +83,11 @@ const Navbar = () => {
             </a>
             <div className="border-t border-gray-100 my-2 pt-2 px-3 flex flex-col gap-3">
               <a
-                href="https://wa.me/91890576656"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-600 hover:text-green-600 font-semibold transition"
-              >
-                <i className="fa-brands fa-whatsapp text-xl text-green-500"></i> +91 890576656
-              </a>
-              <a
                 href="#contact"
                 onClick={toggleMenu}
                 className="block text-center bg-primary hover:bg-secondary text-white px-4 py-2.5 rounded-full font-medium shadow-md transition"
               >
-                Get Started
+                Contact Us
               </a>
             </div>
           </div>

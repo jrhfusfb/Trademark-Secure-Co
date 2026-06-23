@@ -97,11 +97,11 @@ const Index8Page = () => {
               <i className="fa-solid fa-magnifying-glass mr-1"></i> Free Trademark Search & Consultation
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
-              Protect Your Brand. <br className="hidden md:block" />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-[#ebd7ae] to-[#a67c22]">Secure Your Legacy.</span>
+              Your One Stop <br className="hidden md:block" />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-[#ebd7ae] to-[#a67c22]">Trademark Solution Provider</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Seamless Online Trademark Registration And Comprehensive IP Protection. Expert Legal Support With 100% Transparent Pricing.
+              Protect Your Brand <br /> Secure Your Legacy
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a href="#pricing" className="bg-secondary hover:bg-accent text-white px-8 py-4 rounded-full font-bold text-lg transition duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-secondary/20 flex items-center justify-center gap-2">
