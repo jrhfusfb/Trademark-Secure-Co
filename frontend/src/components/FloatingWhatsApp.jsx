@@ -14,7 +14,7 @@ const FloatingWhatsApp = () => {
       </div>
       {/* Permanent Text Bubble below the icon */}
       <span className="bg-white text-[#0f2247] text-[10px] md:text-xs font-extrabold px-2.5 py-1 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.12)] border border-gray-100/80 whitespace-nowrap select-none transition-transform duration-300 group-hover:translate-y-[-2px] tracking-wide uppercase">
-        How Can I Help You
+        How Can I Help You?
       </span>
     </a>
   );
