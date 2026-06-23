@@ -248,7 +248,7 @@ const Index8Page = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
               Full-Spectrum <span className="text-secondary">IP Protection</span>
             </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">From filing to registration and beyond — we cover every stage of your intellectual property journey.</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">From filing to registration and beyond - we cover every stage of your intellectual property journey.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -268,7 +268,7 @@ const Index8Page = () => {
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Trademark Renewal</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Rectification / Cancellation</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Assignment &amp; Licensing</li>
-                <li className="flex items-start gap-2 text-gray-400"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> <span className="line-through">International Registration (Madrid)</span></li>
+                <li className="flex items-start gap-2 text-gray-400"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> <span className="line-through">International Trademark Registration</span></li>
               </ul>
             </div>
 
@@ -288,7 +288,7 @@ const Index8Page = () => {
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Copyright Hearing</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Software &amp; Code Protection</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Assignment &amp; Licensing</li>
-                <li className="flex items-start gap-2 text-gray-400"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> <span className="line-through">Infringement Litigation</span></li>
+
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Take-down Notices (DMCA)</li>
               </ul>
             </div>
@@ -307,7 +307,7 @@ const Index8Page = () => {
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Renewal of Design</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Cancellation Proceedings</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Assignment &amp; Licensing</li>
-                <li className="flex items-start gap-2 text-gray-400"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> <span className="line-through">Piracy &amp; Infringement Actions</span></li>
+
               </ul>
             </div>
 
