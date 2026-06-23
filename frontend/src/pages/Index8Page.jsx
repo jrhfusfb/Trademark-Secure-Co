@@ -461,6 +461,29 @@ const Index8Page = () => {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section id="testimonials" className="py-20 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-primary mb-12">Trusted by Growing Brands</h2>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto perspective-1000">
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100/80 text-left card-3d shadow-sm">
+              <div className="flex text-secondary mb-4">
+                <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i>
+              </div>
+              <p className="text-gray-600 italic mb-6">"Other agencies quoted me low upfront, but then asked for thousands when an objection came. Trademark Secure handled everything transparently. Highly recommended."</p>
+              <p className="font-bold text-primary">- Rahul S., Tech Startup Founder</p>
+            </div>
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100/80 text-left card-3d shadow-sm">
+              <div className="flex text-secondary mb-4">
+                <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i>
+              </div>
+              <p className="text-gray-600 italic mb-6">"Having a direct WhatsApp line to the actual attorney filing my application gave me immense peace of mind. Fast, professional, and zero hidden costs."</p>
+              <p className="font-bold text-primary">- Priya K., E-commerce Owner</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section id="faq" className="py-20 bg-gray-50/50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

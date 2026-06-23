@@ -35,6 +35,7 @@ const Navbar = () => {
             <a href="#services" className="text-gray-600 hover:text-secondary font-medium transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-secondary hover:after:w-full after:transition-all after:duration-300">Services</a>
             <a href="#pricing" className="text-gray-600 hover:text-secondary font-medium transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-secondary hover:after:w-full after:transition-all after:duration-300">Pricing</a>
             <a href="#difference" className="text-gray-600 hover:text-secondary font-medium transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-secondary hover:after:w-full after:transition-all after:duration-300">Why Us</a>
+            <a href="#testimonials" className="text-gray-600 hover:text-secondary font-medium transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-secondary hover:after:w-full after:transition-all after:duration-300">Reviews</a>
           </div>
 
           <div className="hidden md:flex items-center gap-4">
@@ -80,6 +81,13 @@ const Navbar = () => {
               className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:text-secondary hover:bg-gray-50 transition"
             >
               Why Us
+            </a>
+            <a
+              href="#testimonials"
+              onClick={toggleMenu}
+              className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:text-secondary hover:bg-gray-50 transition"
+            >
+              Reviews
             </a>
             <div className="border-t border-gray-100 my-2 pt-2 px-3 flex flex-col gap-3">
               <a
