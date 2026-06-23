@@ -268,7 +268,7 @@ const Index8Page = () => {
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Trademark Renewal</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Rectification / Cancellation</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> Assignment &amp; Licensing</li>
-                <li className="flex items-start gap-2 text-gray-400"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> <span className="line-through">International Trademark Registration</span></li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-0.5 shrink-0"></i> International Trademark Registration</li>
               </ul>
             </div>
 
