@@ -107,7 +107,7 @@ const Index8Page = () => {
               <a href="#pricing" className="bg-secondary hover:bg-accent text-white px-8 py-4 rounded-full font-bold text-lg transition duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-secondary/20 flex items-center justify-center gap-2">
                 View Packages <i className="fa-solid fa-arrow-right"></i>
               </a>
-              <a href="https://wa.me/91890576656" target="_blank" rel="noopener noreferrer" className="bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-full font-bold text-lg transition duration-300 hover:scale-105 active:scale-95 flex items-center justify-center gap-2">
+              <a href="https://wa.me/918905766456" target="_blank" rel="noopener noreferrer" className="bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-full font-bold text-lg transition duration-300 hover:scale-105 active:scale-95 flex items-center justify-center gap-2">
                 <i className="fa-brands fa-whatsapp text-green-400 text-xl"></i> Free Consultation
               </a>
             </div>
@@ -332,7 +332,7 @@ const Index8Page = () => {
                   </div>
                   <div className="min-w-0">
                     <p className="text-xs sm:text-sm text-gray-500">WhatsApp / Call Us</p>
-                    <a href="https://wa.me/91890576656" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold text-primary hover:text-green-600 transition duration-300 break-words">+91 890576656</a>
+                    <a href="https://wa.me/918905766456" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold text-primary hover:text-green-600 transition duration-300 break-words">+91 8905766456</a>
                   </div>
                 </div>
                 {/* Email */}

@@ -23,7 +23,7 @@ const Footer = () => {
     { icon: 'fa-brands fa-instagram', href: '#', label: 'Instagram' },
     { icon: 'fa-brands fa-linkedin-in', href: '#', label: 'LinkedIn' },
     { icon: 'fa-brands fa-facebook-f', href: '#', label: 'Facebook' },
-    { icon: 'fa-brands fa-whatsapp', href: 'https://wa.me/918905766566', label: 'WhatsApp' },
+    { icon: 'fa-brands fa-whatsapp', href: 'https://wa.me/918905766456', label: 'WhatsApp' },
   ];
 
   return (
@@ -132,8 +132,8 @@ const Footer = () => {
                 <div className="w-8 h-8 rounded-full bg-[#0f2247] border border-[#1a3060] flex items-center justify-center shrink-0">
                   <i className="fa-solid fa-phone text-[#c5a059] text-xs" />
                 </div>
-                <a href="tel:+918905766566" className="text-sm text-white hover:text-[#c5a059] transition duration-200">
-                  +91 8905 766 566
+                <a href="tel:+918905766456" className="text-sm text-white hover:text-[#c5a059] transition duration-200">
+                  +91 8905 766 456
                 </a>
               </li>
               <li className="flex items-center gap-3">
