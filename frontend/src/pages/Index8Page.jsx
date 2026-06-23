@@ -495,28 +495,20 @@ const Index8Page = () => {
           <div className="space-y-4 perspective-1000">
             {[
               {
-                question: "What is a Trademark?",
-                answer: "A trademark is a unique symbol, word, phrase, logo, or design that identifies and distinguishes the source of the goods or services of one party from those of others."
-              },
-              {
                 question: "Can I use the ™ symbol immediately?",
                 answer: "Yes, you can start using the ™ (Trademark) symbol next to your brand name or logo immediately after your application is filed with the IP Registry. The ® (Registered) symbol can only be used once the trademark is officially registered and the registration certificate is issued."
               },
               {
                 question: "How long does the trademark registration process take?",
-                answer: "While you can use the ™ symbol immediately after filing (usually within 24 hours), the entire registration process typically takes 6 to 12 months, depending on whether the registry raises examination objections or if third parties oppose the mark."
+                answer: "It usually takes 6-12 months, but you get the protection upon filing."
               },
               {
-                question: "What is a Trademark Class?",
-                answer: "The IP Registry classifies goods and services into 45 different classes. Classes 1 to 34 are for manufacturing goods, and classes 35 to 45 are for services. Selecting the correct class is crucial for ensuring proper protection."
+                question: "What is the Government Fees?",
+                answer: "The government fees vary, but we guide you through it transparently."
               },
               {
                 question: "How long is a trademark registration valid?",
                 answer: "Once registered, a trademark is valid for 10 years from the date of application. It can be renewed indefinitely every 10 years by paying the renewal fee."
-              },
-              {
-                question: "What happens if my trademark gets objected?",
-                answer: "If the examiner finds issues (e.g., similar existing marks or descriptive names), they issue an Examination Report with objections. You must file a professional written reply within 30 days. Under our Comprehensive Shield package, we handle these replies and hear representations at no extra cost."
               }
             ].map((faq, index) => (
               <div 
