@@ -14,8 +14,6 @@ const Footer = () => {
     'Trademark Registration',
     'Copyright Registration',
     'Design Registration',
-    'IP Prosecution',
-    'IP Litigation',
     'Trademark Renewal',
   ];
 
@@ -55,7 +53,7 @@ const Footer = () => {
               </svg>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-6 max-w-xs">
-              Premium intellectual property services. Shielding your creative and industrial assets through expert registration, prosecution, and litigation.
+              Premium intellectual property services. Protecting your creative and industrial assets.
             </p>
             {/* Social Icons */}
             <div className="flex gap-3">
@@ -155,7 +153,7 @@ const Footer = () => {
         <div className="bg-[#070f20] border border-[#0d1f40] rounded-2xl px-6 py-4 mb-8">
           <p className="text-xs text-gray-500 leading-relaxed">
             <span className="text-[#c5a059] font-semibold">Disclaimer: </span>
-            This platform provides legal technology and consultancy solutions. All formal intellectual property filings, prosecution, and litigation (including Trademarks, Copyrights, and Designs) are executed by independent registered IP Agents and Advocates in compliance with the Bar Council of India regulations.
+            This platform provides legal technology and consultancy solutions. All formal intellectual property filings, prosecution are executed by independent registered IP Agents and Advocates in compliance with the Bar Council of India regulations.
           </p>
         </div>
 
