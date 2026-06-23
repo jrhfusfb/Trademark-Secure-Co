@@ -231,14 +231,14 @@ const Index8Page = () => {
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Hearing Attendance by Advocate</li>
               </ul>
               
-              <a href="#contact" className="block w-full text-center bg-[#173062] hover:bg-[#1a3461] text-white font-bold py-3 rounded-xl transition duration-300 hover:scale-102 active:scale-98">Get Expert Help</a>
+              <a href="#contact" className="block w-full text-center bg-[#173062] hover:bg-[#1a3461] text-white font-bold py-3 rounded-xl transition duration-300 hover:scale-102 active:scale-98">Select IP Rescue</a>
             </div>
+
           </div>
         </div>
       </section>
 
-
-      {/* Contact and Form Section */}
+      {/* Contact Form Section */}
       <section id="contact" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
