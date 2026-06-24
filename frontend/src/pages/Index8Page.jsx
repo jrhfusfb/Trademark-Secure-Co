@@ -179,7 +179,7 @@ const Index8Page = () => {
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Trademark Search</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Class Selection</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing of Application</li>
-                <li className="flex items-start gap-2 text-slate-500"><i className="fa-solid fa-xmark mt-1"></i> <span className="line-through">Drafting & Filing Reply to Registry’s Objection</span></li>
+                <li className="flex items-start gap-2 text-slate-500"><i className="fa-solid fa-xmark mt-1"></i> <span className="line-through">Drafting & Filing Reply to Registry’s Objection (if any)</span></li>
                 <li className="flex items-start gap-2 text-slate-500"><i className="fa-solid fa-xmark mt-1"></i> <span className="line-through">Hearing</span></li>
               </ul>
               
@@ -204,7 +204,7 @@ const Index8Page = () => {
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Trademark Search</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Class Selection</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing of Application</li>
-                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing Reply to Registry’s Objection</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing Reply to Registry’s Objection (if any)</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Hearing Attendance by Advocate</li>
               </ul>
               
@@ -227,7 +227,7 @@ const Index8Page = () => {
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Takeover of Existing Application</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Strategy Review by IP Advocate</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing of Application</li>
-                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing Reply to Registry’s Objection</li>
+                <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Drafting & Filing Reply to Registry’s Objection (if any)</li>
                 <li className="flex items-start gap-2"><i className="fa-solid fa-check text-secondary mt-1"></i> Hearing Attendance by Advocate</li>
               </ul>
               
