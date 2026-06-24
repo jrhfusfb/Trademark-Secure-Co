@@ -425,7 +425,7 @@ const Index8Page = () => {
                         <option value="Copyright">Copyright Registration</option>
                         <option value="Design">Design Registration</option>
                         <option value="Prosecution">IP Prosecution (Objections/Hearings)</option>
-                        <option value="Litigation">IP Litigation (Infringement)</option>
+
                         <option value="Other">Other Query</option>
                       </select>
                     </div>
