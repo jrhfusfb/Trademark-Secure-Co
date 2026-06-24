@@ -123,7 +123,7 @@ const Footer = () => {
                 <div>
                   <p className="text-sm text-white leading-snug">Palam Vihar, Gurugram</p>
                   <p className="text-xs text-gray-500 mt-0.5">Haryana – 122001</p>
-                  <p className="text-xs text-gray-500 mt-1">Indore | Ahmedabad | Pratapgarh (Raj.)</p>
+                  <p className="text-xs text-gray-500 mt-1">Indore | Ahmedabad | Jaipur | Pratapgarh (Raj.)</p>
                 </div>
               </li>
               <li className="flex items-center gap-3">
