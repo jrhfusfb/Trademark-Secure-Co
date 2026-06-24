@@ -273,10 +273,7 @@ const Index8Page = () => {
             </div>
 
             {/* Copyright Services Card */}
-            <div className="bg-white rounded-3xl p-8 border-2 border-secondary/40 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col relative">
-              <div className="absolute top-0 right-0 bg-secondary text-white text-xs font-bold px-4 py-1.5 rounded-bl-lg rounded-tr-3xl uppercase tracking-wide">
-                Popular
-              </div>
+            <div className="bg-white rounded-3xl p-8 border border-gray-200/80 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
               <div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center mb-6 border border-secondary/25">
                 <i className="fa-solid fa-copyright text-2xl text-secondary"></i>
               </div>
