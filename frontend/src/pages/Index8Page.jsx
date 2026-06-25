@@ -1,9 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 
 const Index8Page = () => {
+  useEffect(() => {
+    document.title = "Trademark Registration India – Starting ₹1,499 | Trademark Secure Co.";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Register your trademark in India with expert IP attorneys. Flat-rate pricing from ₹1,499 + Govt fees. Free trademark search & consultation. Get TM protection from Day 1. Call now!');
+    }
+  }, []);
+
   const [formData, setFormData] = useState({
     name: '',
     phone: '',

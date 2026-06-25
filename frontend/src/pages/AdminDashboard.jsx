@@ -29,6 +29,7 @@ const AdminDashboard = () => {
   };
 
   useEffect(() => {
+    document.title = "Admin Leads Dashboard | Trademark Secure Co.";
     fetchLeads();
   }, []);
 

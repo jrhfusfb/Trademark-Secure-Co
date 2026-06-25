@@ -1,8 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import { Menu, X } from 'lucide-react';
 
 const Index7Page = () => {
+  useEffect(() => {
+    document.title = "Trademark Search & Registration | Trademark Secure Co.";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Expert IP attorneys helping you register trademarks, copyrights & designs in India. Transparent flat-rate pricing starting ₹1,499. Free consultation.');
+    }
+  }, []);
+
   const [navOpen, setNavOpen] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
