@@ -19,8 +19,8 @@ const Footer = () => {
 
   const socials = [
     { icon: 'fa-brands fa-instagram', href: 'https://www.instagram.com/trademarksecureco?utm_source=qr', label: 'Instagram' },
-    { icon: 'fa-brands fa-linkedin-in', href: '#', label: 'LinkedIn' },
-    { icon: 'fa-brands fa-facebook-f', href: '#', label: 'Facebook' },
+    { icon: 'fa-brands fa-linkedin-in', href: 'https://www.linkedin.com/in/trademark-secure-co-79905841a?utm_source=share_via&utm_content=profile&utm_medium=member_ios', label: 'LinkedIn' },
+    { icon: 'fa-brands fa-facebook-f', href: 'https://www.facebook.com/share/1Afvpo6RY5/?mibextid=wwXIfr', label: 'Facebook' },
     { icon: 'fa-brands fa-whatsapp', href: 'https://wa.me/918905766456', label: 'WhatsApp' },
   ];
 
