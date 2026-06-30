@@ -330,14 +330,14 @@ const Index7Page = () => {
               <div className="flex text-secondary mb-4">
                 <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i>
               </div>
-              <p className="text-gray-600 italic mb-6">"Excellent, efficient, and thoroughly professional trademark registration services. The team at Trademark Secure Co. made the entire filing process seamless and stress-free. Highly recommended for anyone looking to secure their brand identity!"</p>
+              <p className="text-gray-600 italic mb-6">Excellent, efficient, and thoroughly professional trademark registration services. The team at Trademark Secure Co. made the entire filing process seamless and stress-free. Highly recommended for anyone looking to secure their brand identity!</p>
               <p className="font-bold text-primary">- Mr. Pratik Porwal</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100/80 text-left card-3d shadow-sm">
               <div className="flex text-secondary mb-4">
                 <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i>
               </div>
-              <p className="text-gray-600 italic mb-6">"I recently registered my trademark for which I used the services of Trademark Secure and had a very good experience. The team was responsive, explained the process very clearly, and kept me informed about the status of my application. I appreciated the transparent communication and timely assistance whenever I had questions. Overall, the process was smooth and professional which made the trademark registration process hassle free."</p>
+              <p className="text-gray-600 italic mb-6">I recently registered my trademark for which I used the services of Trademark Secure and had a very good experience. The team was responsive, explained the process very clearly, and kept me informed about the status of my application. I appreciated the transparent communication and timely assistance whenever I had questions. Overall, the process was smooth and professional which made the trademark registration process hassle free.</p>
               <p className="font-bold text-primary">- Mr. Mrinal Jain</p>
             </div>
           </div>
