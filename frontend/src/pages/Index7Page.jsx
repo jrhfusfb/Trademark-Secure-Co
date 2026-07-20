@@ -358,7 +358,7 @@ const Index7Page = () => {
               </div>
               <div className="min-w-0">
                 <p className="text-xs sm:text-sm text-gray-500">WhatsApp / Call Us</p>
-                <a href="https://wa.me/918905766456" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold text-primary hover:text-green-600 transition duration-300 break-words">+91 8905766456</a>
+                <a href="https://wa.me/911111111111" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold text-primary hover:text-green-600 transition duration-300 break-words">+91 1111111111</a>
               </div>
             </div>
             {/* Email */}
@@ -396,7 +396,7 @@ const Index7Page = () => {
             <div className="md:text-right pt-4 md:pt-0">
               <p className="text-sm mb-1"><i className="fa-solid fa-location-dot mr-2 text-secondary"></i> Palam Vihar, Gurugram, Haryana - 122001</p>
               <p className="text-xs text-gray-500 mb-3">Locations: Indore | Ahmedabad | Pratapgarh (Rajasthan)</p>
-              <p className="text-sm"><i className="fa-solid fa-phone mr-2 text-secondary"></i> +91 8905766456</p>
+              <p className="text-sm"><i className="fa-solid fa-phone mr-2 text-secondary"></i> +91 1111111111</p>
             </div>
           </div>
           
