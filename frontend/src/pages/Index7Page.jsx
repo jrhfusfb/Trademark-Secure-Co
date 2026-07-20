@@ -394,8 +394,8 @@ const Index7Page = () => {
               <p className="text-sm max-w-md mt-4">Premium Intellectual Property Services. Protecting your creative and assets.</p>
             </div>
             <div className="md:text-right pt-4 md:pt-0">
-              <p className="text-sm mb-1"><i className="fa-solid fa-location-dot mr-2 text-secondary"></i> Palam Vihar, Gurugram, Haryana - 122001</p>
-              <p className="text-xs text-gray-500 mb-3">Locations: Indore | Ahmedabad | Pratapgarh (Rajasthan)</p>
+              <p className="text-sm mb-1"><i className="fa-solid fa-location-dot mr-2 text-secondary"></i> Gurugram, Haryana - 122001</p>
+              <p className="text-xs text-gray-500 mb-3">Locations: Indore | Ahmedabad | Jaipur</p>
               <p className="text-sm"><i className="fa-solid fa-phone mr-2 text-secondary"></i> +91 1111111111</p>
             </div>
           </div>
