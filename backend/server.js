@@ -24,13 +24,10 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'up', time: new Date() });
 });
 
-// Start server only in local development — Vercel uses the exported handler
-if (process.env.NODE_ENV !== 'production') {
-  const PORT = process.env.PORT || 5002;
-  app.listen(PORT, () => {
-    console.log(`Server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
-  });
-}
+// Start server — Vercel Web Service provides a PORT environment variable
+const PORT = process.env.PORT || 5002;
+app.listen(PORT, () => {
+  console.log(`Server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
+});
 
-// Export app as default — Vercel Serverless Functions use this as the request handler
 export default app;
