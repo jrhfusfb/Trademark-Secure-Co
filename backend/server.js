@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: '*' })); // Railway: frontend and backend are separate services
+app.use(cors({ origin: '*' }));
 app.use(express.json());
 
 // Routes
@@ -24,10 +24,13 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'up', time: new Date() });
 });
 
-// Start server — Railway provides a persistent Node.js environment
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`Server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
-});
+// Start server only in local development — Vercel uses the exported handler
+if (process.env.NODE_ENV !== 'production') {
+  const PORT = process.env.PORT || 5002;
+  app.listen(PORT, () => {
+    console.log(`Server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
+  });
+}
 
+// Export app as default — Vercel Serverless Functions use this as the request handler
 export default app;
